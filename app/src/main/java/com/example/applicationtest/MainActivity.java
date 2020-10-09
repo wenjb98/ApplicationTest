@@ -68,7 +68,11 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "hello activity", Toast.LENGTH_LONG).show();
+                //Toast.makeText(MainActivity.this, "hello activity", Toast.LENGTH_LONG).show();
+
+                //显示添加意图Intent
+
+
             }
         });
     }
